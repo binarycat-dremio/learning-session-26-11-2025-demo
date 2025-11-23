@@ -31,3 +31,9 @@ You can run the virtual environment's python interpreter directly using `poetry 
 ```bash
 poetry run python
 ```
+
+## Airflow example
+
+```bash
+AIRFLOW_HOME=$PWD/airflow poetry run airflow standalone
+```

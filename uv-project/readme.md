@@ -31,3 +31,9 @@ You can run the virtual environment's python interpreter directly using `uv run`
 ```bash
 uv run python
 ```
+
+## Jupyter Lab example
+
+```bash
+uv run jupyter lab
+```

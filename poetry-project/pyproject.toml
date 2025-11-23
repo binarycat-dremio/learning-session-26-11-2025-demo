@@ -6,9 +6,10 @@ authors = [
     {name = "Artur Rakhmatulin",email = "artur.rakhmatulin@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<3.13"
 dependencies = [
-    "requests (>=2.32.5,<3.0.0)"
+    "requests (>=2.32.5,<3.0.0)",
+    "apache-airflow[celery] (==3.0.0)"
 ]
 
 
